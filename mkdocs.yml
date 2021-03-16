@@ -12,3 +12,4 @@ plugins:
 nav:
   - სახლი: index.md
   - პროდუქტები - პროდუქტები: products.md
+  - პროდუქტები - პროდუქტები (დამატება): add-products.md

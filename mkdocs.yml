@@ -1,0 +1,14 @@
+site_name: Optimo
+theme: 
+  language: ka
+  name: material
+extra:
+  version:
+    provider: mike
+plugins:
+    - search
+    - pdf-export:
+        combined: true
+nav:
+  - სახლი: index.md
+  - პროდუქტები - პროდუქტები: products.md

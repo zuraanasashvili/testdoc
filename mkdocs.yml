@@ -2,14 +2,29 @@ site_name: Optimo
 theme: 
   language: ka
   name: material
+  features:
+    - navigation.indexes
 extra:
   version:
     provider: mike
 plugins:
     - search
-    - pdf-export:
-        combined: true
+    # - pdf-export:
+    #     combined: true
 nav:
-  - სახლი: index.md
-  - პროდუქტები - პროდუქტები: products.md
-  - პროდუქტები - პროდუქტები (დამატება): add-products.md
+  - სახლი: index/index.md
+  - მენეჯერის სივრცე:
+    - პროდუქტები:
+      - პროდუქტები:
+        - ცხრილი: bo/products/products.md
+        - დამატება: bo/products/add-products.md
+        - რედაქტირება: bo/products/edit-products.md
+        - წაშლა: bo/products/delete-products.md
+      - კატეგორიები:
+        - სია: bo/categories/category.md
+      - გადაზიდვები:
+        - სია: bo/transfer/transfer.md
+      - ინვენტარიზაცია:
+        - სია: bo/stocktake/stocktake.md
+  - მოლარის სივრცე:
+    - სისტემური მოთხოვნები: pos/requirements.md

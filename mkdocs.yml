@@ -17,14 +17,23 @@ nav:
     - პროდუქტები:
       - პროდუქტები:
         - ცხრილი: bo/products/products.md
-        - დამატება: bo/products/add-products.md
-        - რედაქტირება: bo/products/edit-products.md
-        - წაშლა: bo/products/delete-products.md
+        - დამატება: bo/products/add_products.md
+        - რედაქტირება: bo/products/edit_products.md
+        - წაშლა: bo/products/delete_products.md
       - კატეგორიები:
-        - სია: bo/categories/category.md
+        - ცხრილი: bo/categories/categories.md
+        - დამატება: bo/categories/add_categories.md
+        - რედაქტირება: bo/categories/edit_categories.md
+        - წაშლა: bo/categories/delete_categories.md
       - გადაზიდვები:
-        - სია: bo/transfer/transfer.md
+        - ცხრილი: bo/transfer/transfer.md
+        - დამატება: bo/transfer/add_transfer.md
+        - რედაქტირება: bo/transfer/edit_transfer.md
+        - წაშლა: bo/transfer/delete_transfer.md
       - ინვენტარიზაცია:
-        - სია: bo/stocktake/stocktake.md
+        - ცხრილი: bo/stocktake/stocktake.md
+        - დამატება: bo/stocktake/add_stocktake.md
+        - რედაქტირება: bo/stocktake/edit_stocktake.md
+        - წაშლა: bo/stocktake/delete_stocktake.md
   - მოლარის სივრცე:
     - სისტემური მოთხოვნები: pos/requirements.md

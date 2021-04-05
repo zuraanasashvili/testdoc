@@ -22,9 +22,9 @@ nav:
         - წაშლა: bo/products/delete_products.md
       - კატეგორიები:
         - ცხრილი: bo/categories/categories.md
-        - დამატება: bo/categories/add_categories.md
-        - რედაქტირება: bo/categories/edit_categories.md
-        - წაშლა: bo/categories/delete_categories.md
+        - დამატება: bo/categories/add_category.md
+        - რედაქტირება: bo/categories/edit_category.md
+        - წაშლა: bo/categories/delete_category.md
       - გადაზიდვები:
         - ცხრილი: bo/transfer/transfer.md
         - დამატება: bo/transfer/add_transfer.md

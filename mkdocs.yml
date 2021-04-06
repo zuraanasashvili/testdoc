@@ -12,7 +12,7 @@ plugins:
     # - pdf-export:
     #     combined: true
 nav:
-  - სახლი: index/index.md
+  - სახლი: index.md
   - მენეჯერის სივრცე:
     - პროდუქტები:
       - პროდუქტები:

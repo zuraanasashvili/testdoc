@@ -17,9 +17,17 @@ nav:
     - პროდუქტები:
       - პროდუქტები:
         - ცხრილი: bo/products/products.md
+        - ცხრილი_ახალი: bo/products/products_copy.md
         - დამატება: bo/products/add_products.md
         - რედაქტირება: bo/products/edit_products.md
         - წაშლა: bo/products/delete_products.md
+        - ფასების სინქრონიზაცია: bo/products/price_synch.md
+        - ფასების ცვლილება: bo/products/price_change
+        - RS-დან ჩამოტვირთვა: bo/products/rs_import_products.md
+        - პროდუქტების ატვირთვა: bo/products/product_import.md
+        - ექსპორტი სასწორისთვის: bo/products/scales_export.md
+        - ექსელში ექსპორტი: bo/products/excel_export.md
+        - ბარკოდის ბეჭდვა: bo/products/print_barcode.md
       - კატეგორიები:
         - ცხრილი: bo/categories/categories.md
         - დამატება: bo/categories/add_category.md

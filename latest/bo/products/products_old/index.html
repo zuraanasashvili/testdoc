@@ -14,7 +14,7 @@
     
     
       
-        <title>ცხრილი_ახალი - Optimo</title>
+        <title>**პროდუქტების ცხრილის აღწერა** - Optimo</title>
       
     
     
@@ -88,7 +88,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ცხრილი_ახალი
+              **პროდუქტების ცხრილის აღწერა**
             
           </span>
         </div>
@@ -182,14 +182,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
       <label class="md-nav__link" for="__nav_2">
         მენეჯერის სივრცე
@@ -205,14 +203,12 @@
             
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
       
       <label class="md-nav__link" for="__nav_2_1">
         პროდუქტები
@@ -228,14 +224,12 @@
             
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1" type="checkbox" id="__nav_2_1_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1" type="checkbox" id="__nav_2_1_1" >
       
       <label class="md-nav__link" for="__nav_2_1_1">
         პროდუქტები
@@ -256,27 +250,6 @@
       <a href="../products/" class="md-nav__link">
         ცხრილი
       </a>
-    </li>
-  
-
-          
-            
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        ცხრილი_ახალი
-      </a>
-      
     </li>
   
 
@@ -334,7 +307,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../price_change" class="md-nav__link">
+      <a href="../price_change/" class="md-nav__link">
         ფასების ცვლილება
       </a>
     </li>
@@ -716,10 +689,8 @@
                 
                 
                 <h1 id="_1"><strong>პროდუქტების ცხრილის აღწერა</strong></h1>
-<h1 id="_2"><strong>შესავალი</strong></h1>
-<p>პროდუქტების ცხრილში მომხმარებელი ხედავს საკუთარ კატალოგთან დაკავშირებულ ყველა ინფორმაციას. დამატებით, პროდუქტების გვერდიდან, მომხმარებელს შეუძლია ისეთი ქმედებების გაკეთება, რომელიც დაკავშირებულია პროდუქტებთან, პროდუქტის ფასებთან ან მარაგებთან</p>
-<h1 id="_3"><strong>ცხრილის ფუნქციონალი</strong></h1>
-<h2 id="_4">სვეტები</h2>
+<h1 id="02"><strong>0.2 გატესტვა</strong></h1>
+<h2 id="_2"><strong>სვეტები</strong></h2>
 <p>პროდუქტების გვერდზე არის ცხრილი, რომლის სვეტებია:</p>
 <ul>
 <li>ჩანაწერების მონიშვნა</li>
@@ -741,6 +712,9 @@
 <li>მარჟა</li>
 <li>დღგ</li>
 </ul>
+<h3 id="_3">შეს. ფასი</h3>
+<p>შესყიდვის ფასის კალკულაცია ხდება საშუალო შეწონილის ფორმულით - sumproduct(რაოდენობა, ღირებულება)/sum(რაოდენობა)</p>
+<h2 id="_4"><strong>ცხრილის ფუნქციონალი</strong></h2>
 <p>ცხრილში, თითოეულ ჩანაწერზე, მომხმარებელს შეუძლია:</p>
 <ul>
 <li>მონიშვნა</li>
@@ -749,16 +723,15 @@
 <li>მომწოდებლის Viewს ნახვა</li>
 <li>კატეგორიის Viewს ნახვა</li>
 </ul>
-<h3 id="_5">შეს. ფასი</h3>
-<p>შესყიდვის ფასის კალკულაცია ხდება საშუალო შეწონილის ფორმულით - sumproduct(რაოდენობა, ღირებულება)/sum(რაოდენობა)</p>
+<h3 id="_5">ჩანაწერების მონიშვნის ფუნქციონალი</h3>
 <p>ჩანაწერების მონიშვნას აქვს 3 მდგომარეობა</p>
 <ul>
 <li>თუ არცერთი ჩანაწერი არ აქვს მომხმარებელს მონიშნული შესაძლებელია დაკლიკვით ყველა ჩანაწერი მონიშნოს</li>
 <li>თუ 1 ჩანაწერი აქვს მომხმარებელს მონიშნული, დაკლიკვით შეუძლია ყველა ჩანაწერი მონიშნოს</li>
 <li>თუ ყველა ჩანაწერი აქვს მომხმარებელს მონიშნული, დაკლიკვით შეუძლია ყველა ჩანაწერს მონიშვნა გაუთიშოს</li>
 </ul>
-<h2 id="_6">რჩეულების ფუნქციონალი</h2>
-<p><img alt="რჩეულები" src="../images/pic1.png" /></p>
+<h3 id="_6">რჩეულების ფუნქციონალი</h3>
+<p><img alt="რჩეულები" src="images/pic1.png" /></p>
 <p>რჩეულების ფუნქციონალს აქვს 3 მდგომარეობა (ახალი ცვლილება)</p>
 <ul>
 <li>თუ ცხრილში მომხმარებელს არცერთი პროდუქტი არ აქვს რჩეულში, რჩეულების ღილაკზე დაჭერით ყველა ჩანაწერი გახდება რჩეული</li>
@@ -773,7 +746,7 @@
 </ul>
 </li>
 </ul>
-<h2 id="_7">ჰოვერის ფუნქციონალი</h2>
+<h2 id="_7"><strong>ჰოვერის ფუნქციონალი</strong></h2>
 <p>ცხრილის ჩანაწერებზე კურსორის მიტანისას (ჰოვერზე) მომხმარებელს შეუძლია შემდეგი სამი ექშენის გაკეთება:</p>
 <ul>
 <li>დამალვა / გამოჩენა (თუ ჩანაწერი დამალულია - გამოჩენა, თუ გამოჩენილი - დამალვა)</li>
@@ -781,35 +754,35 @@
 <li>წაშლა</li>
 </ul>
 <p>დამალული პროდუქტები არ ჩანან პოს-ში</p>
-<h2 id="_8">ღილაკები</h2>
-<h3 id="_9">არცერთი ჩანაწერის მონიშვნის შემთხვევაში ჩანს ღილაკები:</h3>
+<h2 id="_8"><strong>ღილაკები</strong></h2>
+<h3 id="0">0 ჩანაწერის მონიშვნის შემთხვევაში ჩანს ღილაკები:</h3>
 <ul>
-<li><a href="add_products">დამატება</a> </li>
-<li><a href="../price_synch/">ფასების სინქრონიზაცია</a></li>
-<li><a href="../price_change/">ფასების ცვლილება</a></li>
-<li><a href="../rs_import_products/">RS-დან ჩამოტვირთვა</a></li>
-<li><a href="../product_import/">პროდუქტების ატვირთვა</a> <ul>
+<li>დამატება</li>
+<li>ფასების სინქრონიზაცია</li>
+<li>ფასების ცვლილება</li>
+<li>RS-დან ჩამოტვირთვა</li>
+<li>პროდუქტების ატვირთვა<ul>
 <li>ფორმის ჩამოტვირთვა</li>
 <li>ფორმის ატვირთვა</li>
 </ul>
 </li>
-<li><a href="../scales_export/">ექსპორტი სასწორისთვის</a><ul>
+<li>ექსპორტი სასწორისთვის<ul>
 <li>DIGI SM-320</li>
 <li>Shtrih-Print M</li>
 </ul>
 </li>
-<li><a href="../excel_export/">ექსელში ექსპორტი</a></li>
+<li>ექსელში ექსპორტი</li>
 </ul>
-<h3 id="_10">ერთი ჩანაწერის მონიშვნის შემთხვევაში ჩანს ღილაკები:</h3>
+<h3 id="1">1 ჩანაწერის მონიშვნის შემთხვევაში ჩანს ღილაკები:</h3>
 <ul>
-<li><a href="../edit_products/">რედაქტირება</a> </li>
-<li><a href="../delete_products/">წაშლა</a> </li>
-<li><a href="../print_barcode/">ბარკოდის ბეჭდვა</a> </li>
+<li>რედაქტირება</li>
+<li>წაშლა</li>
+<li>ბარკოდის ბეჭდვა</li>
 </ul>
-<h3 id="_11">ერთზე მეტი ჩანაწერის მონიშვნის შემთხვევაში ჩანს ღილაკები:</h3>
+<h3 id="1_1">&gt;1 ჩანაწერის მონიშვნის შემთხვევაში ჩანს ღილაკები:</h3>
 <ul>
-<li><a href="../delete_products/">წაშლა</a></li>
-<li><a href="../print_barcode/">ბარკოდის ბეჭდვა</a> </li>
+<li>წაშლა</li>
+<li>ბარკოდის ბეჭდვა</li>
 </ul>
                 
               
@@ -825,39 +798,6 @@
       
         
 <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        <a href="../products/" class="md-footer__link md-footer__link--prev" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                წინა
-              </span>
-              ცხრილი
-            </div>
-          </div>
-        </a>
-      
-      
-        <a href="../add_products/" class="md-footer__link md-footer__link--next" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                შემდეგი
-              </span>
-              დამატება
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

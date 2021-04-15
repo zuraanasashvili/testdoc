@@ -1,16 +1,16 @@
 site_name: Optimo
-# markdown_extensions:
-#   - toc:
-#       permalink: true
 theme: 
   language: ka
   name: material
   features:
-    # - toc.integrate
     - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+    - search.highlight
     # - navigation.indexes
     # - navigation.tracking (სოლოს შექმილი თავიდან)
-    - navigation.top
+    
 extra:
   version:
     provider: mike

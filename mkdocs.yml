@@ -9,8 +9,8 @@ theme:
     # - toc.integrate
     - navigation.instant
     # - navigation.indexes
-    # - navigation.tracking
-    # - navigation.top
+    # - navigation.tracking (სოლოს შექმილი თავიდან)
+    - navigation.top
 extra:
   version:
     provider: mike

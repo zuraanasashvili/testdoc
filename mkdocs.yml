@@ -1,9 +1,16 @@
 site_name: Optimo
+# markdown_extensions:
+#   - toc:
+#       permalink: true
 theme: 
   language: ka
   name: material
   features:
-    - navigation.indexes
+    # - toc.integrate
+    - navigation.instant
+    # - navigation.indexes
+    # - navigation.tracking
+    # - navigation.top
 extra:
   version:
     provider: mike

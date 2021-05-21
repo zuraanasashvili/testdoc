@@ -24,7 +24,7 @@ nav:
     - პროდუქტები:
       - პროდუქტები:
         - ცხრილი: bo/products/products.md
-        - ცხრილი_ძველი: bo/products/products copy.md
+        # - ცხრილი_ძველი: bo/products/products copy.md
         - დამატება: bo/products/add_products.md
         - რედაქტირება: bo/products/edit_products.md
         - წაშლა: bo/products/delete_products.md

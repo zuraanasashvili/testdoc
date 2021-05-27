@@ -29,7 +29,7 @@ nav:
         - რედაქტირება: bo/products/edit_products.md
         - წაშლა: bo/products/delete_products.md
         # - ფასების სინქრონიზაცია: bo/products/price_synch.md
-        # - ფასების ცვლილება: bo/products/price_change.md
+        - ფასების ცვლილება: bo/products/price_change.md
         # - RS-დან ჩამოტვირთვა: bo/products/rs_import_products.md
         # - პროდუქტების ატვირთვა: bo/products/product_import.md
         # - ექსპორტი სასწორისთვის: bo/products/scales_export.md

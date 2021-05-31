@@ -4,13 +4,10 @@ theme:
   name: material
   features:
     - navigation.instant
-    - navigation.tracking
-    - navigation.top
     - navigation.tabs
     - search.highlight
-    # - navigation.indexes
-    # - navigation.tracking (სოლოს შექმილი თავიდან)
-    
+markdown_extensions:
+  - admonition
 extra:
   version:
     provider: mike
